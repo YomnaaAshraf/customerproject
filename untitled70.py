@@ -5,7 +5,7 @@ import streamlit as st
 import sklearn
 
 
-df = pd.read_csv("df_Clustered.csv")
+df = pd.read_csv("df_Clustered - df_Clustered.csv")
 
 def get_recommendations(user , num_of_recom):
     try:
